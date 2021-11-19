@@ -1,4 +1,46 @@
+body {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+.nvbarimg {
+  padding-left: 0.8%;
+}
 .navbar-brand {
   padding: 0.8%;
   font-style: bold;
+}
+
+.row {
+  background-color: transparent;
+  margin: 5%;
+}
+.planet-name {
+  font-size: xx-large;
+}
+.planetinfo {
+  color: antiquewhite;
+  font-size: large;
+}
+.planetpic {
+  text-align: center;
+  max-height: 70%;
+}
+.pic {
+  max-width: 60%;
+}
+.row-fact {
+  text-align: center;
+}
+.facts {
+  width: 23%;
+  color: antiquewhite;
+  background-color: transparent;
+  border: 1px solid white;
+  margin: 1%;
+}
+.planet-facts {
+  font-size: x-large;
+  font-style: bold;
+}
+.fact-numerical {
+  font-size: x-large;
 }
