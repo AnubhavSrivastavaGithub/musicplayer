@@ -2,10 +2,12 @@ body {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 .nvbarimg {
-  padding-left: 0.8%;
+  padding-left: 0.7%;
+  width: 4%;
+  height: 4%;
 }
 .navbar-brand {
-  padding: 0.8%;
+  padding: 0.7%;
   font-style: bold;
 }
 
@@ -27,22 +29,48 @@ body {
 .pic {
   max-width: 60%;
 }
-.row-fact {
+
+/* Data Section */
+.data-row {
   text-align: center;
+  margin: 0%;
 }
-.facts {
-  width: 23%;
-  color: antiquewhite;
-  background-color: transparent;
-  border: 0.05px solid rgb(204, 202, 202);
-  margin: 1%;
-  box-shadow: inset;
+.card {
+  background-color: #050505;
+  opacity: 0.6;
+  text-align: center;
+  border-radius: 5%;
 }
-.planet-facts {
-  font-size: large;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+.card:hover {
+  background-color: #050505;
+  opacity: 0.9;
 }
-.fact-numerical {
-  font-size: xx-large;
+
+.card-header,
+.card-footer {
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: auto 0;s
+}
+
+.card-body {
+  color: white;
+}
+
+/* Footer */
+.footer-container, .footer-row {
+  background-color: #000000;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+.footer-sec {
+  background-color: #050505;
+}
+.footer-copyright {
+  background-color: #050505;
+}
+.footer-email-signup {
+  margin: 0 auto;
 }
