@@ -1,5 +1,6 @@
 body {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  text-align: center;
 }
 .nvbarimg {
   padding-left: 0.7%;
@@ -19,6 +20,11 @@ body {
   font-size: xx-large;
 }
 .planetinfo {
+  text-align: center;
+  background-color: #000000;
+  opacity: 0.8;
+  border-radius: 1%;
+  padding: 1%;
   color: antiquewhite;
   font-size: large;
 }
@@ -29,7 +35,11 @@ body {
 .pic {
   max-width: 60%;
 }
-
+.slidesh {
+  width: 30%;
+  height: 30%;
+  align-items: center;
+}
 /* Data Section */
 .data-row {
   text-align: center;
@@ -57,7 +67,7 @@ body {
 .card-body {
   color: white;
 }
-
+ 
 /* Footer */
 .footer-container, .footer-row {
   background-color: #000000;
