@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">]
+  <!-- Head Section -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,6 +10,8 @@
       href="assets/img/favicon.ico"
       type="image/x-icon"
     />
+
+    <!-- Bootstrap Linking CDN - for low latency -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,14 +23,22 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    
+    <!-- Linking our own Style Sheet at last as it will override BootStrap if needed -->
     <link rel="stylesheet" href="css/styles.css" />
+
     <title>Planetôrium</title>
+
   </head>
+  <!-- Head Section ends here -->
+  
+  <!-- Body of the homepage starts from here -->
+
   <body style="background-color: transparent">
     <!-- Navbar -->
     <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
-      <img class="nvbarimg" src="assets/img/favicon.ico" alt="logo" />
-      <a class="navbar-brand" href="#">PLANET<i>Ô </i>RIUM</a>
+      <img class="nvbarimg" src="assets/img/favicon.ico" href="index.html" alt="logo" />
+      <a class="navbar-brand" href="index.html">PLANET<i>Ô </i>RIUM</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -37,7 +48,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
@@ -68,7 +79,9 @@
         </ul>
       </div>
     </nav>
-    <!-- Planet -->
+    <!-- Navbar ends here -->
+
+    <!-- Welcome Section -->
     <div class="container-fluid">
       <div class="row">
         <div class="col planetinfo">
@@ -102,12 +115,11 @@
         </div>
       </div>   
     </div>
-    
+    <!-- Welcome Section ends here -->
 
-    <!-- Footer -->
+    <!-- Footer Section-->
     <footer class="footer-sec bg-dark text-center text-white">
       <div class="row footer-row">
-        <!-- Grid container -->
       <div class="footer-container container p-4">
         <!-- Section: Text -->
         <section class="mb-4">
@@ -121,9 +133,9 @@
         © Developed by Anubhav Srivastava | Visit My : 
         <a class="text-white" href="https://github.com/AnubhavSrivastavaGithub">Github</a>
       </div>
-      <!-- Copyright -->
+      <!-- Copyright Section ends here -->
       </div>
     </footer>
-    <!-- Footer -->
+    <!-- Footer Section ends here-->
   </body>
 </html>

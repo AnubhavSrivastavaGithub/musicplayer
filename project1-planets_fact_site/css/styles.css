@@ -1,16 +1,24 @@
+/* Body Section */
 body {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   text-align: center;
 }
-.nvbarimg {
+/* Body Section ends here */
+
+/* Navbar Section */
+.nvbarimg, .navbar-brand {
   padding-left: 0.7%;
+}
+
+.nvbarimg {
   width: 4%;
   height: 4%;
 }
+
 .navbar-brand {
-  padding: 0.7%;
   font-style: bold;
 }
+/* Navbar Section ends here */
 
 .row {
   background-color: transparent;
@@ -40,11 +48,8 @@ body {
   height: 30%;
   align-items: center;
 }
-/* Data Section */
-.data-row {
-  text-align: center;
-  margin: 0%;
-}
+
+/* Data Cards Section */
 .card {
   background-color: #050505;
   opacity: 0.6;
@@ -55,19 +60,17 @@ body {
   background-color: #050505;
   opacity: 0.9;
 }
-
-.card-header,
-.card-footer {
+.card-body {
+  color: white;
+}
+.card-header, .card-footer {
   color: rgb(255, 255, 255);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: auto 0;s
 }
+/*  Data Cards Section ends here */
 
-.card-body {
-  color: white;
-}
- 
 /* Footer */
 .footer-container, .footer-row {
   background-color: #000000;
@@ -75,12 +78,10 @@ body {
   margin: 0;
   padding: 0;
 }
-.footer-sec {
-  background-color: #050505;
-}
-.footer-copyright {
+.footer-sec, .footer-copyright {
   background-color: #050505;
 }
 .footer-email-signup {
   margin: 0 auto;
 }
+/* Footer Section ends here */
