@@ -1,3 +1,5 @@
-# Short Front-End projects
+# Music Player
 
-Front-End Projects : HTML/CSS/JS/Bootstrap
+Tech Stack :
+-- Frontend : HTML/CSS/JS/Bootstrap
+-- Backend :
